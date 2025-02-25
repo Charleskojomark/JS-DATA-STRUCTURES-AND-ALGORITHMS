@@ -1,5 +1,6 @@
 // Question
-// Write a function capitalizeFirstLetter(str) that capitalizes the first letter of a given string.
+// Write a function capitalizeFirstLetter(str) that capitalizes 
+// the first letter of a given string.
 
 function capitalizeFirstLetter(str){
     let arr = str.split("")
@@ -8,3 +9,4 @@ function capitalizeFirstLetter(str){
 }
 
 console.log(capitalizeFirstLetter("charles"));
+

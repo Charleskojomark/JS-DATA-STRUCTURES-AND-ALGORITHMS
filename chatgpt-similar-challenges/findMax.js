@@ -3,7 +3,7 @@
 
 function findMax(arr){
     let max = arr[0];
-    for(i = 0; i < arr.length; i++){
+    for(i in arr){
         if (max < arr[i]){
             max = arr[i]
         }
